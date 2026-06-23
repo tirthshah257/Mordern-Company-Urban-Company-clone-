@@ -103,7 +103,16 @@ Route::get('/logoutButton',function(){
     return redirect('/');
 });
 
+
+
+
+
+
 // routes/web.php
+
+
+
+
 
 
 Route::get('/Accept_service/{id}', [AcceptanceController::class, 'Accept'])->name('User-layout.AcceptUser');
