@@ -115,6 +115,16 @@ Route::get('/logoutButton',function(){
 
 
 
+
+
+
+
+
+
+
+
+
+
 Route::get('/Accept_service/{id}', [AcceptanceController::class, 'Accept'])->name('User-layout.AcceptUser');
 Route::post('/Done/{id}', [AcceptanceController::class, 'update'])->name('User-layout.AcceptCos');
 
