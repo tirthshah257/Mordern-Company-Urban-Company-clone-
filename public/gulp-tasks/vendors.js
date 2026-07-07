@@ -3,27 +3,6 @@ var gulp = require('gulp');
 var concat = require('gulp-concat');
 var merge = require('merge-stream');
 const del = require('del');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 gulp.task('clean:vendors', function () {
     return del([
       './assets/vendors/**/*'
